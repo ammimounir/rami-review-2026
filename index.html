@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#122c43">
+<meta name="description" content="رفيق رامي: تنظيم ومتابعة مراجعة اختبارات الأسدس الأول 2026–2027 للسنة الأولى ابتدائي.">
+<title>رفيق رامي | خطة مراجعة الاختبارات</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">ر</span><div><strong>رفيق رامي</strong><small>مراجعة ذكية... بخطوات صغيرة</small></div></div>
+    <div class="side-kicker">مساحة ولي الأمر</div>
+    <nav class="nav" id="nav" aria-label="القائمة الرئيسية">
+      <button class="nav-link active" data-page="home"><span>◫</span> لوحة المتابعة</button>
+      <button class="nav-link" data-page="plan"><span>▦</span> برنامجي اليومي</button>
+      <button class="nav-link" data-page="exams"><span>◷</span> الاختبارات والمقررات</button>
+      <button class="nav-link" data-page="skills"><span>◎</span> إتقان المهارات</button>
+      <button class="nav-link" data-page="activities"><span>✦</span> أنشطة تدريبية</button>
+      <button class="nav-link" data-page="report"><span>▤</span> التقرير والنسخ الاحتياطي</button>
+      <button class="nav-link" data-page="guide"><span>♡</span> الدليل البيداغوجي</button>
+    </nav>
+    <div class="side-note"><b>رسالتنا لرامي</b><p>نتعلّم بهدوء. الخطأ فرصة لفهم ما يحتاج إلى تدريب، وليس علامة فشل.</p></div>
+    <div class="side-foot">السنة الأولى ابتدائي · الأسدس الأول<br>3–20 نونبر 2026</div>
+  </aside>
+  <div class="main-area">
+    <header class="topbar">
+      <div class="top-title"><button class="mobile-menu icon-button" id="menuBtn" aria-label="فتح القائمة">☰</button><div><span class="eyebrow">خطة منزلية مخصصة</span><h1 id="pageTitle">لوحة المتابعة</h1></div></div>
+      <div class="header-actions"><span class="offline-pill">● يعمل دون إنترنت</span><button class="button small ghost" id="backupTop">حفظ نسخة من التقدم ↓</button></div>
+    </header>
+    <main id="app" tabindex="-1" aria-live="polite"></main>
+    <footer class="footer">محتوى الاختبارات من البرنامجين المدرسيين المرسلين · نماذج التمارين تدريبية وليست نصوص الاختبار الفعلية.</footer>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<input type="file" id="importFile" accept="application/json,.json" hidden>
+<script src="app.js"></script>
+</body>
+</html>
